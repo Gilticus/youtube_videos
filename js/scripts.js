@@ -1,5 +1,5 @@
 function getVideosInfo() {
-    const url = 'https://soul.ru.xsph.ru/youtube';
+    const url = 'http://giltwaresofticus.ru.xsph.ru/youtube';
     fetch(url)
       .then(response => response.json())
       .then(data => {
