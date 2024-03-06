@@ -1,5 +1,5 @@
 function getVideosInfo() {
-    const url = 'http://127.0.0.1:8000/youtube';
+    const url = 'https://soul.ru.xsph.ru/youtube';
     fetch(url)
       .then(response => response.json())
       .then(data => {
